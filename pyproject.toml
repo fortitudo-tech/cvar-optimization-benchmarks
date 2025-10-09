@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "cvar-optimization-benchmarks"
+version = "0.1"
+description = "Conditional Value-at-Risk (CVaR) portfolio optimization benchmark problems in Python."
+authors = ["Fortitudo Technologies <software@fortitudo.tech>"]
+license = "GPL-3.0-or-later"
+readme = "README.md"
+homepage = "https://fortitudo.tech"
+repository = "https://github.com/fortitudo-tech/cvar-optimization-benchmarks"
+documentation = "https://os.fortitudo.tech"
+keywords = ["CVaR", "Efficient Frontier", "Entropy Pooling", "Quantitative Finance", "Portfolio Optimization"]
+classifiers = [
+    "Intended Audience :: Education",
+    "Intended Audience :: Financial and Insurance Industry",
+    "Intended Audience :: Science/Research",
+    "Programming Language :: Python :: 3.13",
+    "Programming Language :: Python :: 3.12",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Office/Business :: Financial",
+    "Topic :: Office/Business :: Financial :: Investment",
+    "Topic :: Scientific/Engineering :: Mathematics"]
+packages = [
+    { include = "src" }
+]
+
+[tool.poetry.urls]
+"Issues" = "https://github.com/fortitudo-tech/cvar-optimization-benchmarks/issues"
+
+[tool.poetry.dependencies]
+python = "^3.9, <3.14"
+fortitudo-tech = "^1.1.11"
+notebook = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
