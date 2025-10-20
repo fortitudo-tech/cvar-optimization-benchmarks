@@ -18,10 +18,14 @@ for the efficient frontier optimizations of long-only cash portfolios, which are
 It is recommended to install the code dependencies in a 
 [conda environment](https://conda.io/projects/conda/en/latest/user-guide/concepts/environments.html):
 
-    conda create -n cvar-optimization-benchmarks python
+    conda create -n cvar-optimization-benchmarks python=3.13
+    conda activate cvar-optimization-benchmarks
     pip install cvar-optimization-benchmarks
 
 After this, you should be able to run the code in the [2_OptimizationExample notebook](https://github.com/fortitudo-tech/cvar-optimization-benchmarks/blob/main/2_OptimizationExample.ipynb).
+
+The code in [1_CVaROptBenchmarks notebook](https://github.com/fortitudo-tech/cvar-optimization-benchmarks/blob/main/1_CVaROptBenchmarks.ipynb)
+can only be run by people who subscribe to the Investment Analysis module.
 
 ## Portfolio Construction and Risk Management book
 You can read much more about the [next-generation investment framework](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework)

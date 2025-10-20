@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "cvar-optimization-benchmarks"
-version = "0.1"
+version = "0.1.1"
 description = "Conditional Value-at-Risk (CVaR) portfolio optimization benchmark problems in Python."
 authors = ["Fortitudo Technologies <software@fortitudo.tech>"]
 license = "GPL-3.0-or-later"
