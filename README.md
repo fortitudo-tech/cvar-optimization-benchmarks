@@ -2,7 +2,7 @@
 This repository contains Conditional Value-at-Risk (CVaR) portfolio optimization benchmark
 problems for fully general Monte Carlo distributions and derivatives portfolios.
 
-The starting point is the [next-generation investment framework's market representation](https://youtu.be/4ESigySdGf8?si=yWYuP9te1K1RBU7j&t=46)
+The starting point is the [Fully General Investment Framework (FGIF) market representation](https://youtu.be/4ESigySdGf8?si=yWYuP9te1K1RBU7j&t=46)
 given by the matrix $R\in \mathbb{R}^{S\times I}$ and associated joint scenario probability
 vectors $p,q\in \mathbb{R}^{S}$.
 
@@ -28,7 +28,7 @@ The code in [1_CVaROptBenchmarks notebook](https://github.com/fortitudo-tech/cva
 can only be run by people who subscribe to the Investment Analysis module.
 
 ## Portfolio Construction and Risk Management book
-You can read much more about the [next-generation investment framework](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework)
+You can read much more about the [Fully General Investment Framework (FGIF)](https://antonvorobets.substack.com/p/anton-vorobets-next-generation-investment-framework)
 in the [Portfolio Construction and Risk Management book](https://antonvorobets.substack.com/p/pcrm-book),
 including a thorough description of CVaR optimization problems and
 [Resampled Portfolio Stacking](https://antonvorobets.substack.com/p/resampled-portfolio-stacking).
